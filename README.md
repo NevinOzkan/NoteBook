@@ -1,7 +1,5 @@
 # NoteBook
 
 
+https://github.com/NevinOzkan/NoteBook/assets/123404652/65e9ce74-3751-4d01-8821-5acce3078a46
 
-https://github.com/NevinOzkan/NoteBook/assets/123404652/d42a726f-1cc0-458b-ab98-06bc9a214576
-
-# NoteBook
