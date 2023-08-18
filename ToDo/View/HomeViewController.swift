@@ -8,13 +8,14 @@
 import UIKit
 import CoreData
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
+class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
 
     var models : [(title: String, note: String)] = []
     @IBOutlet weak var myTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         myTableView.dataSource = self
         myTableView.delegate = self
         fetchData()
@@ -90,6 +91,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 
                 // Veriyi modele ekleme
                     self.models.append((title: noteTitle, note: note))
+                
                 // Tabloyu güncelleme
                     self.myTableView.reloadData()
                 
@@ -108,7 +110,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
    
 }
 
-extension ViewController {
+extension HomeViewController {
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let delete = UIContextualAction(style: .destructive, title: nil) { (action, sourceView, completionHandler) in
             let appDelegate = UIApplication.shared.delegate as! AppDelegate

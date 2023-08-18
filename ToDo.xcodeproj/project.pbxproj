@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A605D8892A8A493E0071895C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A605D8882A8A493E0071895C /* AppDelegate.swift */; };
 		A605D88B2A8A493E0071895C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A605D88A2A8A493E0071895C /* SceneDelegate.swift */; };
-		A605D88D2A8A493E0071895C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A605D88C2A8A493E0071895C /* ViewController.swift */; };
+		A605D88D2A8A493E0071895C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A605D88C2A8A493E0071895C /* HomeViewController.swift */; };
 		A605D8902A8A493E0071895C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A605D88E2A8A493E0071895C /* Main.storyboard */; };
 		A605D8932A8A493E0071895C /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A605D8912A8A493E0071895C /* ToDo.xcdatamodeld */; };
 		A605D8952A8A49400071895C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A605D8942A8A49400071895C /* Assets.xcassets */; };
@@ -22,7 +22,7 @@
 		A605D8852A8A493E0071895C /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A605D8882A8A493E0071895C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A605D88A2A8A493E0071895C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A605D88C2A8A493E0071895C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A605D88C2A8A493E0071895C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A605D88F2A8A493E0071895C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A605D8922A8A493E0071895C /* ToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo.xcdatamodel; sourceTree = "<group>"; };
 		A605D8942A8A49400071895C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,11 +65,11 @@
 				A6CA00AC2A8F817A0080B7F0 /* View */,
 				A605D8882A8A493E0071895C /* AppDelegate.swift */,
 				A605D88A2A8A493E0071895C /* SceneDelegate.swift */,
-				A6CA00AE2A8F97560080B7F0 /* Model */,
 				A605D88E2A8A493E0071895C /* Main.storyboard */,
 				A605D8942A8A49400071895C /* Assets.xcassets */,
 				A605D8962A8A49400071895C /* LaunchScreen.storyboard */,
 				A605D8992A8A49400071895C /* Info.plist */,
+				A605D8912A8A493E0071895C /* ToDo.xcdatamodeld */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -77,7 +77,7 @@
 		A6CA00AC2A8F817A0080B7F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A605D88C2A8A493E0071895C /* ViewController.swift */,
+				A605D88C2A8A493E0071895C /* HomeViewController.swift */,
 				A605D8A12A8A4BDF0071895C /* NoteViewController.swift */,
 				A6CA00AD2A8F822B0080B7F0 /* viewModel */,
 			);
@@ -90,14 +90,6 @@
 				A605D89F2A8A4BD80071895C /* NewViewController.swift */,
 			);
 			path = viewModel;
-			sourceTree = "<group>";
-		};
-		A6CA00AE2A8F97560080B7F0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A605D8912A8A493E0071895C /* ToDo.xcdatamodeld */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A605D88D2A8A493E0071895C /* ViewController.swift in Sources */,
+				A605D88D2A8A493E0071895C /* HomeViewController.swift in Sources */,
 				A605D8892A8A493E0071895C /* AppDelegate.swift in Sources */,
 				A605D8A02A8A4BD80071895C /* NewViewController.swift in Sources */,
 				A605D88B2A8A493E0071895C /* SceneDelegate.swift in Sources */,

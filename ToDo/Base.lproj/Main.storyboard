@@ -102,7 +102,7 @@
         <!--Notes-->
         <scene sceneID="KqL-H6-KIu">
             <objects>
-                <viewController id="k3y-Zv-XwK" customClass="ViewController" customModule="ToDo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="k3y-Zv-XwK" customClass="HomeViewController" customModule="ToDo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gqw-eB-lY0">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
